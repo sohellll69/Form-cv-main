@@ -1,0 +1,39 @@
+h2{
+    font-family: verdana, geneva, tahoma, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color:aqua
+    text-align: center;
+    text-decoration: underline
+}
+
+   table{
+       font-family: verdana;
+       color:rgb(0, 0, 0);
+       font-size: 16px;
+       font-style: normal;
+       font-weight: bold;
+       background-color: rgb(127, 255, 170);
+       border-collapse: collapse;
+       border: 6px solid #000000;
+       border-style:groove;
+   }
+
+   table.inner{
+       border: 10px
+   }
+   
+   input[type=text], input[type=email], input[type=number]{
+       width: 50%
+       padding: 6px 12px;
+       margin: 5px 0;
+       box-sizing: border-box;
+   }
+
+   input[type=submit], input[type=reset]{
+       width: 15%;
+       padding: 8px 12px;
+       margin: 5px 0;
+       box-sizing: border-box;
+   }
